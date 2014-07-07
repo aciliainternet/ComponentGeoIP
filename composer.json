@@ -1,0 +1,21 @@
+{
+    "name": "aciliainternet/component-geoip",
+    "type": "component",
+    "description": "Acilia Component for GeoIP",
+    "keywords": ["geoip", "component"],
+    "homepage": "https://github.com/aciliainternet/ComponentGeoIP",
+    "authors": [
+        {
+            "name": "Acilia Internet",
+            "homepage": "http://acilia.es"
+        }
+    ],
+    "require": {
+        "php":       ">=5.3.3",
+        "ext-geoip": ">=1.0.0"
+    },
+    "autoload": {
+        "psr-0": { "Acilia\\Component\\GeoIP": "" }
+    },
+    "target-dir": "Acilia/Component/GeoIP"
+}
